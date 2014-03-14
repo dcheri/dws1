@@ -1,0 +1,16 @@
+/**** Color Scheme from colorschemedesigner.com *****/
+body {
+	color: crimson; 
+	background-color: rgb(240,248,255);
+}
+
+h1, h2 {
+	padding: 0.3%;
+	color: hsl(208,100%,97.1%);
+	background-color: rgba(86.3%, 7.8%, 23.5%, 0.6);
+}
+
+ul {
+	color: black;
+	background-color: #B1E114;
+}
