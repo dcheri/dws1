@@ -1,0 +1,63 @@
+/**** Color Scheme from colorschemedesigner.com *****/
+body {
+	color: crimson; 
+	background-color: rgb(240,248,255);
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	padding: 0.3%;
+	color: hsl(208,100%,97.1%);
+	background-color: rgba(86.3%, 7.8%, 23.5%, 0.6);
+	font-family: 'Sigmar One', cursive;
+	text-shadow: 2px 2px 4px #000;
+}
+
+ul {
+	color: black;
+	background-color: #B1E114;
+	font-style: normal;
+	list-style-type: circle;
+}
+
+nav{
+	text-align: center;
+}
+
+nav li{
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: .8em;
+	line-height: 24px;
+	letter-spacing: 2px;
+	display: inline;
+}
+
+#page {
+	width: 70%;
+	height: 90%;
+	padding: 1.2%;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav a:link{
+	color: #05654A;
+	list-style: none;
+}
+
+#nav a:visited{
+	color: #729207;
+}
+
+#nav a:hover{
+	color: #000;
+}
+
+#nav a:active{
+	font-weight: bold;
+	color: #8F0621;
+}
