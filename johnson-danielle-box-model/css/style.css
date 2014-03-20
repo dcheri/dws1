@@ -2,12 +2,14 @@
 body {
 	color: crimson; 
 	background-color: rgb(240,248,255);
-	font-family: Calibri;
+	font-family: Calibri, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: lighter;
+
 }
 
 h1, h2 {
+	margin-top: 50px;
 	padding: 0.3%;
 	color: hsl(208,100%,97.1%);
 	background-color: rgba(86.3%, 7.8%, 23.5%, 0.6);
@@ -16,14 +18,17 @@ h1, h2 {
 }
 
 ul {
+	border-radius: 15px 15px;
 	color: black;
 	background-color: #B1E114;
-	font-style: normal;
 	list-style-type: circle;
 }
 
 nav{
-	text-align: center;
+	margin: 0;
+	padding-left: 30px;
+	text-align: left;
+	width: 180%;
 }
 
 nav li{
@@ -38,10 +43,13 @@ nav li{
 #page {
 	width: 70%;
 	height: 90%;
-	padding: 1.2%;
+	padding: 1.8%;
 	border: 0;
 	margin-left: auto;
 	margin-right: auto;
+	-moz-box-shadow: 2px 2px 5px #ccc; 
+	-webkit-box-shadow: 2px 2px 5px #ccc; 
+	box-shadow: 2px 2px 5px #ccc; 
 }
 
 #nav a:link{
