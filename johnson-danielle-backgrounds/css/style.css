@@ -4,12 +4,13 @@ body {
 	font-family: Calibri, Arial, sans-serif;
 	font-size: 1.125em;
 	font-weight: lighter;
-	background-image: url("images/foxtail.png") repeat;
+	background: url("../images/foxtail.png") repeat;
 }
 
 h1, h2, h3 {
-	padding: 0.3%;
+	padding: 0.3% 0 0.3% 50px;
 	color: hsl(208,100%,97.1%);
+	background: url("../images/camera.png") no-repeat 1.25% 50%;
 	background-color: rgba(86.3%, 7.8%, 23.5%, 0.6);
 	font-family: 'Sigmar One', cursive;
 	text-shadow: 2px 2px 4px #000;
@@ -70,7 +71,6 @@ background: -webkit-linear-gradient(45deg, rgba(209,54,206,0.45) 0%,rgba(0,0,0,0
 background: -o-linear-gradient(45deg, rgba(209,54,206,0.45) 0%,rgba(0,0,0,0) 80%); /* Opera 11.10+ */
 background: -ms-linear-gradient(45deg, rgba(209,54,206,0.45) 0%,rgba(0,0,0,0) 80%); /* IE10+ */
 background: linear-gradient(45deg, rgba(209,54,206,0.45) 0%,rgba(0,0,0,0) 80%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d136ce', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 
 #nav a:link{
